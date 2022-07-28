@@ -122,6 +122,11 @@ if __name__ == '__main__':
     if opt.sensitive:
         opt.character = string.printable[:-6]  # same with ASTER setting (use 94 char).
 
+    with open('/content/drive/MyDrive/dataset/text_recognition/charlist.txt') as f:
+        opt.character = f.read() 
+
+    print(f'opt.character = {opt.character}')
+
     cudnn.benchmark = True
     cudnn.deterministic = True
     opt.num_gpu = torch.cuda.device_count()
