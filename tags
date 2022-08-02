@@ -127,6 +127,7 @@ backends	test.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	train.py	/^import torch.backends.cudnn as cudnn$/;"	i
 benchmark_all_eval	test.py	/^def benchmark_all_eval(model, criterion, converter, opt, calculate_infer_time=False):$/;"	f
 build_P_prime	modules/transformation.py	/^    def build_P_prime(self, batch_C_prime):$/;"	m	class:GridGenerator
+charlist_path	demo.py	/^    charlist_path = opt.saved_model.replace('.pth', '.txt') $/;"	v
 checkImageIsValid	create_lmdb_dataset.py	/^def checkImageIsValid(imageBin):$/;"	f
 copyStateDict	craft/test.py	/^def copyStateDict(state_dict):$/;"	f
 craft_utils	craft/test.py	/^import craft_utils$/;"	i

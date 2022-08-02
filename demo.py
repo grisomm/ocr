@@ -122,7 +122,8 @@ if __name__ == '__main__':
     if opt.sensitive:
         opt.character = string.printable[:-6]  # same with ASTER setting (use 94 char).
 
-    with open('/content/charlist.txt') as f:
+    charlist_path = opt.saved_model.replace('.pth', '.txt') 
+    with open(charlist_path) as f:
         opt.character = f.read() 
 
     print(f'opt.character = {opt.character}')
