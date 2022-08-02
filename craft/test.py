@@ -47,7 +47,7 @@ parser.add_argument('--trained_model', default='/content/drive/MyDrive/model/Cra
 parser.add_argument('--text_threshold', default=0.7, type=float, help='text confidence threshold')
 parser.add_argument('--low_text', default=0.4, type=float, help='text low-bound score')
 parser.add_argument('--link_threshold', default=0.4, type=float, help='link confidence threshold')
-parser.add_argument('--cuda', default=False, type=str2bool, help='Use cuda for inference')
+parser.add_argument('--cuda', default=True, type=str2bool, help='Use cuda for inference')
 parser.add_argument('--canvas_size', default=1280, type=int, help='image size for inference')
 parser.add_argument('--mag_ratio', default=1.5, type=float, help='image magnification ratio')
 parser.add_argument('--poly', default=False, action='store_true', help='enable polygon type')
@@ -123,10 +123,11 @@ if __name__ == '__main__':
     # load net
     net = CRAFT()     # initialize
 
-    print('Loading weights from checkpoint (' + args.trained_model + ')')
     if args.cuda:
+        print('Loading weights from checkpoint (' + args.trained_model + ') to gpu')
         net.load_state_dict(copyStateDict(torch.load(args.trained_model)))
     else:
+        print('Loading weights from checkpoint (' + args.trained_model + ') to cpu')
         net.load_state_dict(copyStateDict(torch.load(args.trained_model, map_location='cpu')))
 
     if args.cuda:
