@@ -279,7 +279,7 @@ refine_net	craft/test.py	/^        refine_net = RefineNet()$/;"	v
 refine_net	craft/test.py	/^    refine_net = None$/;"	v
 reset	utils.py	/^    def reset(self):$/;"	m	class:Averager
 resize_aspect_ratio	craft/imgproc.py	/^def resize_aspect_ratio(img, square_size, interpolation, mag_ratio=1):$/;"	f
-result_folder	craft/test.py	/^result_folder = '\/content\/drive\/MyDrive\/video\/craft\/'$/;"	v
+result_folder	craft/test.py	/^result_folder = '\/content\/drive\/MyDrive\/video\/result\/craft\/'$/;"	v
 saveResult	craft/file_utils.py	/^def saveResult(img_file, img, boxes, dirname='.\/result\/', verticals=None, texts=None):$/;"	f
 save_image	dataset.py	/^def save_image(image_numpy, image_path):$/;"	f
 shutil	extract_frame.py	/^import shutil$/;"	i
