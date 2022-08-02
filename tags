@@ -1,0 +1,351 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AlignCollate	dataset.py	/^class AlignCollate(object):$/;"	c
+AlignCollate	demo.py	/^from dataset import RawDataset, AlignCollate$/;"	i
+AlignCollate	test.py	/^from dataset import hierarchical_dataset, AlignCollate$/;"	i
+AlignCollate	train.py	/^from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset$/;"	i
+Attention	model.py	/^from modules.prediction import Attention$/;"	i
+Attention	modules/prediction.py	/^class Attention(nn.Module):$/;"	c
+AttentionCell	modules/prediction.py	/^class AttentionCell(nn.Module):$/;"	c
+AttnLabelConverter	demo.py	/^from utils import CTCLabelConverter, AttnLabelConverter$/;"	i
+AttnLabelConverter	test.py	/^from utils import CTCLabelConverter, AttnLabelConverter, Averager$/;"	i
+AttnLabelConverter	train.py	/^from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager$/;"	i
+AttnLabelConverter	utils.py	/^class AttnLabelConverter(object):$/;"	c
+Averager	test.py	/^from utils import CTCLabelConverter, AttnLabelConverter, Averager$/;"	i
+Averager	train.py	/^from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager$/;"	i
+Averager	utils.py	/^class Averager(object):$/;"	c
+BasicBlock	modules/feature_extraction.py	/^class BasicBlock(nn.Module):$/;"	c
+Batch_Balanced_Dataset	dataset.py	/^class Batch_Balanced_Dataset(object):$/;"	c
+Batch_Balanced_Dataset	train.py	/^from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset$/;"	i
+BidirectionalLSTM	model.py	/^from modules.sequence_modeling import BidirectionalLSTM$/;"	i
+BidirectionalLSTM	modules/sequence_modeling.py	/^class BidirectionalLSTM(nn.Module):$/;"	c
+CRAFT	craft/craft.py	/^class CRAFT(nn.Module):$/;"	c
+CRAFT	craft/test.py	/^from craft import CRAFT$/;"	i
+CTCLabelConverter	demo.py	/^from utils import CTCLabelConverter, AttnLabelConverter$/;"	i
+CTCLabelConverter	test.py	/^from utils import CTCLabelConverter, AttnLabelConverter, Averager$/;"	i
+CTCLabelConverter	train.py	/^from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager$/;"	i
+CTCLabelConverter	utils.py	/^class CTCLabelConverter(object):$/;"	c
+CTCLabelConverterForBaiduWarpctc	train.py	/^from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager$/;"	i
+CTCLabelConverterForBaiduWarpctc	utils.py	/^class CTCLabelConverterForBaiduWarpctc(object):$/;"	c
+CTCLoss	train.py	/^            from warpctc_pytorch import CTCLoss $/;"	i
+ConcatDataset	dataset.py	/^from torch.utils.data import Dataset, ConcatDataset, Subset$/;"	i
+Dataset	dataset.py	/^from torch.utils.data import Dataset, ConcatDataset, Subset$/;"	i
+F	craft/craft.py	/^import torch.nn.functional as F$/;"	i
+F	craft/refinenet.py	/^import torch.nn.functional as F$/;"	i
+F	demo.py	/^import torch.nn.functional as F$/;"	i
+F	modules/feature_extraction.py	/^import torch.nn.functional as F$/;"	i
+F	modules/prediction.py	/^import torch.nn.functional as F$/;"	i
+F	modules/transformation.py	/^import torch.nn.functional as F$/;"	i
+F	test.py	/^import torch.nn.functional as F$/;"	i
+GRCL	modules/feature_extraction.py	/^class GRCL(nn.Module):$/;"	c
+GRCL_unit	modules/feature_extraction.py	/^class GRCL_unit(nn.Module):$/;"	c
+GridGenerator	modules/transformation.py	/^class GridGenerator(nn.Module):$/;"	c
+Image	craft/test.py	/^from PIL import Image$/;"	i
+Image	dataset.py	/^from PIL import Image$/;"	i
+LmdbDataset	dataset.py	/^class LmdbDataset(Dataset):$/;"	c
+LocalizationNetwork	modules/transformation.py	/^class LocalizationNetwork(nn.Module):$/;"	c
+Model	demo.py	/^from model import Model$/;"	i
+Model	model.py	/^class Model(nn.Module):$/;"	c
+Model	test.py	/^from model import Model$/;"	i
+Model	train.py	/^from model import Model$/;"	i
+NormalizePAD	dataset.py	/^class NormalizePAD(object):$/;"	c
+OrderedDict	craft/test.py	/^from collections import OrderedDict$/;"	i
+RCNN_FeatureExtractor	model.py	/^from modules.feature_extraction import VGG_FeatureExtractor, RCNN_FeatureExtractor, ResNet_FeatureExtractor$/;"	i
+RCNN_FeatureExtractor	modules/feature_extraction.py	/^class RCNN_FeatureExtractor(nn.Module):$/;"	c
+RawDataset	dataset.py	/^class RawDataset(Dataset):$/;"	c
+RawDataset	demo.py	/^from dataset import RawDataset, AlignCollate$/;"	i
+RefineNet	craft/refinenet.py	/^class RefineNet(nn.Module):$/;"	c
+RefineNet	craft/test.py	/^        from refinenet import RefineNet$/;"	i
+ResNet	modules/feature_extraction.py	/^class ResNet(nn.Module):$/;"	c
+ResNet_FeatureExtractor	model.py	/^from modules.feature_extraction import VGG_FeatureExtractor, RCNN_FeatureExtractor, ResNet_FeatureExtractor$/;"	i
+ResNet_FeatureExtractor	modules/feature_extraction.py	/^class ResNet_FeatureExtractor(nn.Module):$/;"	c
+ResizeNormalize	dataset.py	/^class ResizeNormalize(object):$/;"	c
+Subset	dataset.py	/^from torch.utils.data import Dataset, ConcatDataset, Subset$/;"	i
+TPS_SpatialTransformerNetwork	model.py	/^from modules.transformation import TPS_SpatialTransformerNetwork$/;"	i
+TPS_SpatialTransformerNetwork	modules/transformation.py	/^class TPS_SpatialTransformerNetwork(nn.Module):$/;"	c
+VGG_FeatureExtractor	model.py	/^from modules.feature_extraction import VGG_FeatureExtractor, RCNN_FeatureExtractor, ResNet_FeatureExtractor$/;"	i
+VGG_FeatureExtractor	modules/feature_extraction.py	/^class VGG_FeatureExtractor(nn.Module):$/;"	c
+Variable	craft/refinenet.py	/^from torch.autograd import Variable$/;"	i
+Variable	craft/test.py	/^from torch.autograd import Variable$/;"	i
+__call__	dataset.py	/^    def __call__(self, batch):$/;"	m	class:AlignCollate	file:
+__call__	dataset.py	/^    def __call__(self, img):$/;"	m	class:NormalizePAD	file:
+__call__	dataset.py	/^    def __call__(self, img):$/;"	m	class:ResizeNormalize	file:
+__getitem__	dataset.py	/^    def __getitem__(self, index):$/;"	m	class:LmdbDataset	file:
+__getitem__	dataset.py	/^    def __getitem__(self, index):$/;"	m	class:RawDataset	file:
+__init__	craft/basenet/vgg16_bn.py	/^    def __init__(self, pretrained=True, freeze=True):$/;"	m	class:vgg16_bn
+__init__	craft/craft.py	/^    def __init__(self, in_ch, mid_ch, out_ch):$/;"	m	class:double_conv
+__init__	craft/craft.py	/^    def __init__(self, pretrained=False, freeze=False):$/;"	m	class:CRAFT
+__init__	craft/refinenet.py	/^    def __init__(self):$/;"	m	class:RefineNet
+__init__	dataset.py	/^    def __init__(self, imgH=32, imgW=100, keep_ratio_with_pad=False):$/;"	m	class:AlignCollate
+__init__	dataset.py	/^    def __init__(self, max_size, PAD_type='right'):$/;"	m	class:NormalizePAD
+__init__	dataset.py	/^    def __init__(self, opt):$/;"	m	class:Batch_Balanced_Dataset
+__init__	dataset.py	/^    def __init__(self, root, opt):$/;"	m	class:LmdbDataset
+__init__	dataset.py	/^    def __init__(self, root, opt):$/;"	m	class:RawDataset
+__init__	dataset.py	/^    def __init__(self, size, interpolation=Image.BICUBIC):$/;"	m	class:ResizeNormalize
+__init__	model.py	/^    def __init__(self, opt):$/;"	m	class:Model
+__init__	modules/feature_extraction.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:BasicBlock
+__init__	modules/feature_extraction.py	/^    def __init__(self, input_channel, output_channel, block, layers):$/;"	m	class:ResNet
+__init__	modules/feature_extraction.py	/^    def __init__(self, input_channel, output_channel, num_iteration, kernel_size, pad):$/;"	m	class:GRCL
+__init__	modules/feature_extraction.py	/^    def __init__(self, input_channel, output_channel=512):$/;"	m	class:RCNN_FeatureExtractor
+__init__	modules/feature_extraction.py	/^    def __init__(self, input_channel, output_channel=512):$/;"	m	class:ResNet_FeatureExtractor
+__init__	modules/feature_extraction.py	/^    def __init__(self, input_channel, output_channel=512):$/;"	m	class:VGG_FeatureExtractor
+__init__	modules/feature_extraction.py	/^    def __init__(self, output_channel):$/;"	m	class:GRCL_unit
+__init__	modules/prediction.py	/^    def __init__(self, input_size, hidden_size, num_classes):$/;"	m	class:Attention
+__init__	modules/prediction.py	/^    def __init__(self, input_size, hidden_size, num_embeddings):$/;"	m	class:AttentionCell
+__init__	modules/sequence_modeling.py	/^    def __init__(self, input_size, hidden_size, output_size):$/;"	m	class:BidirectionalLSTM
+__init__	modules/transformation.py	/^    def __init__(self, F, I_channel_num):$/;"	m	class:LocalizationNetwork
+__init__	modules/transformation.py	/^    def __init__(self, F, I_r_size):$/;"	m	class:GridGenerator
+__init__	modules/transformation.py	/^    def __init__(self, F, I_size, I_r_size, I_channel_num=1):$/;"	m	class:TPS_SpatialTransformerNetwork
+__init__	utils.py	/^    def __init__(self):$/;"	m	class:Averager
+__init__	utils.py	/^    def __init__(self, character):$/;"	m	class:AttnLabelConverter
+__init__	utils.py	/^    def __init__(self, character):$/;"	m	class:CTCLabelConverter
+__init__	utils.py	/^    def __init__(self, character):$/;"	m	class:CTCLabelConverterForBaiduWarpctc
+__len__	dataset.py	/^    def __len__(self):$/;"	m	class:LmdbDataset	file:
+__len__	dataset.py	/^    def __len__(self):$/;"	m	class:RawDataset	file:
+_accumulate	dataset.py	/^from torch._utils import _accumulate$/;"	i
+_build_C	modules/transformation.py	/^    def _build_C(self, F):$/;"	m	class:GridGenerator
+_build_P	modules/transformation.py	/^    def _build_P(self, I_r_width, I_r_height):$/;"	m	class:GridGenerator
+_build_P_hat	modules/transformation.py	/^    def _build_P_hat(self, F, C, P):$/;"	m	class:GridGenerator
+_build_inv_delta_C	modules/transformation.py	/^    def _build_inv_delta_C(self, F, C):$/;"	m	class:GridGenerator
+_char_to_onehot	modules/prediction.py	/^    def _char_to_onehot(self, input_char, onehot_dim=38):$/;"	m	class:Attention
+_conv3x3	modules/feature_extraction.py	/^    def _conv3x3(self, in_planes, out_planes, stride=1):$/;"	m	class:BasicBlock
+_make_layer	modules/feature_extraction.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	m	class:ResNet
+add	utils.py	/^    def add(self, v):$/;"	m	class:Averager
+adjustResultCoordinates	craft/craft_utils.py	/^def adjustResultCoordinates(polys, ratio_w, ratio_h, ratio_net = 2):$/;"	f
+argparse	craft/test.py	/^import argparse$/;"	i
+argparse	demo.py	/^import argparse$/;"	i
+argparse	test.py	/^import argparse$/;"	i
+argparse	train.py	/^import argparse$/;"	i
+args	craft/test.py	/^args = parser.parse_args()$/;"	v
+backends	craft/test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+backends	demo.py	/^import torch.backends.cudnn as cudnn$/;"	i
+backends	test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+backends	train.py	/^import torch.backends.cudnn as cudnn$/;"	i
+benchmark_all_eval	test.py	/^def benchmark_all_eval(model, criterion, converter, opt, calculate_infer_time=False):$/;"	f
+build_P_prime	modules/transformation.py	/^    def build_P_prime(self, batch_C_prime):$/;"	m	class:GridGenerator
+checkImageIsValid	create_lmdb_dataset.py	/^def checkImageIsValid(imageBin):$/;"	f
+copyStateDict	craft/test.py	/^def copyStateDict(state_dict):$/;"	f
+craft_utils	craft/test.py	/^import craft_utils$/;"	i
+createDataset	create_lmdb_dataset.py	/^def createDataset(inputPath, gtFile, outputPath, checkValid=True):$/;"	f
+cudnn	craft/test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+cudnn	demo.py	/^import torch.backends.cudnn as cudnn$/;"	i
+cudnn	test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+cudnn	train.py	/^import torch.backends.cudnn as cudnn$/;"	i
+cv2	craft/craft_utils.py	/^import cv2$/;"	i
+cv2	craft/file_utils.py	/^import cv2$/;"	i
+cv2	craft/imgproc.py	/^import cv2$/;"	i
+cv2	craft/test.py	/^import cv2$/;"	i
+cv2	create_lmdb_dataset.py	/^import cv2$/;"	i
+cv2	extract_frame.py	/^import cv2$/;"	i
+cvt2HeatmapImg	craft/imgproc.py	/^def cvt2HeatmapImg(img):$/;"	f
+data	demo.py	/^import torch.utils.data$/;"	i
+data	test.py	/^import torch.utils.data$/;"	i
+data	train.py	/^import torch.utils.data$/;"	i
+decode	utils.py	/^    def decode(self, text_index, length):$/;"	m	class:AttnLabelConverter
+decode	utils.py	/^    def decode(self, text_index, length):$/;"	m	class:CTCLabelConverter
+decode	utils.py	/^    def decode(self, text_index, length):$/;"	m	class:CTCLabelConverterForBaiduWarpctc
+demo	demo.py	/^def demo(opt):$/;"	f
+denormalizeMeanVariance	craft/imgproc.py	/^def denormalizeMeanVariance(in_img, mean=(0.485, 0.456, 0.406), variance=(0.229, 0.224, 0.225)):$/;"	f
+device	demo.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+device	modules/prediction.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+device	modules/transformation.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+device	test.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+device	train.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+device	utils.py	/^device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')$/;"	v
+double_conv	craft/craft.py	/^class double_conv(nn.Module):$/;"	c
+duration	extract_frame.py	/^duration = 30   # in frame$/;"	v
+edit_distance	test.py	/^from nltk.metrics.distance import edit_distance$/;"	i
+encode	utils.py	/^    def encode(self, text, batch_max_length=25):$/;"	m	class:AttnLabelConverter
+encode	utils.py	/^    def encode(self, text, batch_max_length=25):$/;"	m	class:CTCLabelConverter
+encode	utils.py	/^    def encode(self, text, batch_max_length=25):$/;"	m	class:CTCLabelConverterForBaiduWarpctc
+expansion	modules/feature_extraction.py	/^    expansion = 1$/;"	v	class:BasicBlock
+extract_frame	extract_frame.py	/^def extract_frame(video_url, out_path):$/;"	f
+file_utils	craft/test.py	/^import file_utils$/;"	i
+fire	create_lmdb_dataset.py	/^import fire$/;"	i
+forward	craft/basenet/vgg16_bn.py	/^    def forward(self, X):$/;"	m	class:vgg16_bn
+forward	craft/craft.py	/^    def forward(self, x):$/;"	m	class:CRAFT
+forward	craft/craft.py	/^    def forward(self, x):$/;"	m	class:double_conv
+forward	craft/refinenet.py	/^    def forward(self, y, upconv4):$/;"	m	class:RefineNet
+forward	model.py	/^    def forward(self, input, text, is_train=True):$/;"	m	class:Model
+forward	modules/feature_extraction.py	/^    def forward(self, input):$/;"	m	class:GRCL
+forward	modules/feature_extraction.py	/^    def forward(self, input):$/;"	m	class:RCNN_FeatureExtractor
+forward	modules/feature_extraction.py	/^    def forward(self, input):$/;"	m	class:ResNet_FeatureExtractor
+forward	modules/feature_extraction.py	/^    def forward(self, input):$/;"	m	class:VGG_FeatureExtractor
+forward	modules/feature_extraction.py	/^    def forward(self, wgf_u, wgr_x, wf_u, wr_x):$/;"	m	class:GRCL_unit
+forward	modules/feature_extraction.py	/^    def forward(self, x):$/;"	m	class:BasicBlock
+forward	modules/feature_extraction.py	/^    def forward(self, x):$/;"	m	class:ResNet
+forward	modules/prediction.py	/^    def forward(self, batch_H, text, is_train=True, batch_max_length=25):$/;"	m	class:Attention
+forward	modules/prediction.py	/^    def forward(self, prev_hidden, batch_H, char_onehots):$/;"	m	class:AttentionCell
+forward	modules/sequence_modeling.py	/^    def forward(self, input):$/;"	m	class:BidirectionalLSTM
+forward	modules/transformation.py	/^    def forward(self, batch_I):$/;"	m	class:LocalizationNetwork
+forward	modules/transformation.py	/^    def forward(self, batch_I):$/;"	m	class:TPS_SpatialTransformerNetwork
+getDetBoxes	craft/craft_utils.py	/^def getDetBoxes(textmap, linkmap, text_threshold, link_threshold, low_text, poly=False):$/;"	f
+getDetBoxes_core	craft/craft_utils.py	/^def getDetBoxes_core(textmap, linkmap, text_threshold, link_threshold, low_text):$/;"	f
+getPoly_core	craft/craft_utils.py	/^def getPoly_core(boxes, labels, mapper, linkmap):$/;"	f
+get_batch	dataset.py	/^    def get_batch(self):$/;"	m	class:Batch_Balanced_Dataset
+get_files	craft/file_utils.py	/^def get_files(img_dir):$/;"	f
+help	demo.py	/^                        help='the number of output channel of Feature extractor')$/;"	v
+help	test.py	/^                        help='the number of output channel of Feature extractor')$/;"	v
+help	train.py	/^                        help='FeatureExtraction stage. VGG|RCNN|ResNet')$/;"	v
+help	train.py	/^                        help='assign ratio for each selected data in the batch')$/;"	v
+help	train.py	/^                        help='select training data (default is MJ-ST, which means MJ and ST used as training data)')$/;"	v
+help	train.py	/^                        help='the number of input channel of Feature extractor')$/;"	v
+help	train.py	/^                        help='the number of output channel of Feature extractor')$/;"	v
+help	train.py	/^                        help='total data usage ratio, this ratio is multiplied to total number of data.')$/;"	v
+hierarchical_dataset	dataset.py	/^def hierarchical_dataset(root, opt, select_data='\/'):$/;"	f
+hierarchical_dataset	test.py	/^from dataset import hierarchical_dataset, AlignCollate$/;"	i
+hierarchical_dataset	train.py	/^from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset$/;"	i
+image	craft/test.py	/^        image = imgproc.loadImage(image_path)$/;"	v
+imgproc	craft/file_utils.py	/^import imgproc$/;"	i
+imgproc	craft/test.py	/^import imgproc$/;"	i
+init	craft/basenet/vgg16_bn.py	/^import torch.nn.init as init$/;"	i
+init	train.py	/^import torch.nn.init as init$/;"	i
+init_weights	craft/basenet/vgg16_bn.py	/^def init_weights(modules):$/;"	f
+init_weights	craft/craft.py	/^from basenet.vgg16_bn import vgg16_bn, init_weights$/;"	i
+init_weights	craft/refinenet.py	/^from basenet.vgg16_bn import init_weights$/;"	i
+io	craft/imgproc.py	/^from skimage import io$/;"	i
+io	craft/test.py	/^from skimage import io$/;"	i
+json	craft/test.py	/^import json$/;"	i
+list_files	craft/file_utils.py	/^def list_files(in_path):$/;"	f
+lmdb	create_lmdb_dataset.py	/^import lmdb$/;"	i
+lmdb	dataset.py	/^import lmdb$/;"	i
+loadImage	craft/imgproc.py	/^def loadImage(img_file):$/;"	f
+mask_file	craft/test.py	/^        mask_file = result_folder + "\/res_" + filename + '_mask.jpg'$/;"	v
+math	craft/craft_utils.py	/^import math$/;"	i
+math	dataset.py	/^import math$/;"	i
+model	craft/craft.py	/^    model = CRAFT(pretrained=True).cuda()$/;"	v	class:CRAFT
+model_urls	craft/basenet/vgg16_bn.py	/^from torchvision.models.vgg import model_urls$/;"	i
+models	craft/basenet/vgg16_bn.py	/^from torchvision import models$/;"	i
+namedtuple	craft/basenet/vgg16_bn.py	/^from collections import namedtuple$/;"	i
+natsorted	dataset.py	/^from natsort import natsorted$/;"	i
+net	craft/test.py	/^        net = net.cuda()$/;"	v
+net	craft/test.py	/^        net = torch.nn.DataParallel(net)$/;"	v
+net	craft/test.py	/^    net = CRAFT()     # initialize$/;"	v
+nn	craft/basenet/vgg16_bn.py	/^import torch.nn as nn$/;"	i
+nn	craft/basenet/vgg16_bn.py	/^import torch.nn.init as init$/;"	i
+nn	craft/craft.py	/^import torch.nn as nn$/;"	i
+nn	craft/craft.py	/^import torch.nn.functional as F$/;"	i
+nn	craft/refinenet.py	/^import torch.nn as nn$/;"	i
+nn	craft/refinenet.py	/^import torch.nn.functional as F$/;"	i
+nn	craft/test.py	/^import torch.nn as nn$/;"	i
+nn	demo.py	/^import torch.nn.functional as F$/;"	i
+nn	model.py	/^import torch.nn as nn$/;"	i
+nn	modules/feature_extraction.py	/^import torch.nn as nn$/;"	i
+nn	modules/feature_extraction.py	/^import torch.nn.functional as F$/;"	i
+nn	modules/prediction.py	/^import torch.nn as nn$/;"	i
+nn	modules/prediction.py	/^import torch.nn.functional as F$/;"	i
+nn	modules/sequence_modeling.py	/^import torch.nn as nn$/;"	i
+nn	modules/transformation.py	/^import torch.nn as nn$/;"	i
+nn	modules/transformation.py	/^import torch.nn.functional as F$/;"	i
+nn	test.py	/^import torch.nn.functional as F$/;"	i
+nn	train.py	/^import torch.nn.init as init$/;"	i
+normalizeMeanVariance	craft/imgproc.py	/^def normalizeMeanVariance(in_img, mean=(0.485, 0.456, 0.406), variance=(0.229, 0.224, 0.225)):$/;"	f
+np	craft/craft_utils.py	/^import numpy as np$/;"	i
+np	craft/file_utils.py	/^import numpy as np$/;"	i
+np	craft/imgproc.py	/^import numpy as np$/;"	i
+np	craft/test.py	/^import numpy as np$/;"	i
+np	create_lmdb_dataset.py	/^import numpy as np$/;"	i
+np	dataset.py	/^import numpy as np$/;"	i
+np	modules/transformation.py	/^import numpy as np$/;"	i
+np	test.py	/^import numpy as np$/;"	i
+np	train.py	/^import numpy as np$/;"	i
+opt	demo.py	/^    opt = parser.parse_args()$/;"	v
+opt	test.py	/^    opt = parser.parse_args()$/;"	v
+opt	train.py	/^    opt = parser.parse_args()$/;"	v
+optim	train.py	/^import torch.optim as optim$/;"	i
+os	craft/file_utils.py	/^import os$/;"	i
+os	craft/test.py	/^import os$/;"	i
+os	create_lmdb_dataset.py	/^import os$/;"	i
+os	dataset.py	/^import os$/;"	i
+os	extract_frame.py	/^import os$/;"	i
+os	test.py	/^import os$/;"	i
+os	train.py	/^import os$/;"	i
+out_path	extract_frame.py	/^    out_path = '\/Users\/leeseunghak\/Downloads\/ocr_frames'$/;"	v
+parser	craft/test.py	/^parser = argparse.ArgumentParser(description='CRAFT Text Detection')$/;"	v
+parser	demo.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	test.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	train.py	/^    parser = argparse.ArgumentParser()$/;"	v
+random	train.py	/^import random$/;"	i
+re	dataset.py	/^import re$/;"	i
+re	test.py	/^import re$/;"	i
+refine_net	craft/test.py	/^            refine_net = refine_net.cuda()$/;"	v
+refine_net	craft/test.py	/^            refine_net = torch.nn.DataParallel(refine_net)$/;"	v
+refine_net	craft/test.py	/^        refine_net = RefineNet()$/;"	v
+refine_net	craft/test.py	/^    refine_net = None$/;"	v
+reset	utils.py	/^    def reset(self):$/;"	m	class:Averager
+resize_aspect_ratio	craft/imgproc.py	/^def resize_aspect_ratio(img, square_size, interpolation, mag_ratio=1):$/;"	f
+result_folder	craft/test.py	/^result_folder = '.\/result\/'$/;"	v
+saveResult	craft/file_utils.py	/^def saveResult(img_file, img, boxes, dirname='.\/result\/', verticals=None, texts=None):$/;"	f
+save_image	dataset.py	/^def save_image(image_numpy, image_path):$/;"	f
+shutil	extract_frame.py	/^import shutil$/;"	i
+six	dataset.py	/^import six$/;"	i
+str2bool	craft/test.py	/^def str2bool(v):$/;"	f
+string	demo.py	/^import string$/;"	i
+string	test.py	/^import string$/;"	i
+string	train.py	/^import string$/;"	i
+sys	craft/test.py	/^import sys$/;"	i
+sys	dataset.py	/^import sys$/;"	i
+sys	train.py	/^import sys$/;"	i
+t	craft/test.py	/^    t = time.time()$/;"	v
+tensor2im	dataset.py	/^def tensor2im(image_tensor, imtype=np.uint8):$/;"	f
+test	test.py	/^def test(opt):$/;"	f
+test_net	craft/test.py	/^def test_net(net, image, text_threshold, link_threshold, low_text, cuda, poly, refine_net=None):$/;"	f
+time	craft/test.py	/^import time$/;"	i
+time	test.py	/^import time$/;"	i
+time	train.py	/^import time$/;"	i
+torch	craft/basenet/vgg16_bn.py	/^import torch$/;"	i
+torch	craft/basenet/vgg16_bn.py	/^import torch.nn as nn$/;"	i
+torch	craft/basenet/vgg16_bn.py	/^import torch.nn.init as init$/;"	i
+torch	craft/craft.py	/^import torch$/;"	i
+torch	craft/craft.py	/^import torch.nn as nn$/;"	i
+torch	craft/craft.py	/^import torch.nn.functional as F$/;"	i
+torch	craft/refinenet.py	/^import torch$/;"	i
+torch	craft/refinenet.py	/^import torch.nn as nn$/;"	i
+torch	craft/refinenet.py	/^import torch.nn.functional as F$/;"	i
+torch	craft/test.py	/^import torch$/;"	i
+torch	craft/test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+torch	craft/test.py	/^import torch.nn as nn$/;"	i
+torch	dataset.py	/^import torch$/;"	i
+torch	demo.py	/^import torch$/;"	i
+torch	demo.py	/^import torch.backends.cudnn as cudnn$/;"	i
+torch	demo.py	/^import torch.nn.functional as F$/;"	i
+torch	demo.py	/^import torch.utils.data$/;"	i
+torch	model.py	/^import torch.nn as nn$/;"	i
+torch	modules/feature_extraction.py	/^import torch.nn as nn$/;"	i
+torch	modules/feature_extraction.py	/^import torch.nn.functional as F$/;"	i
+torch	modules/prediction.py	/^import torch$/;"	i
+torch	modules/prediction.py	/^import torch.nn as nn$/;"	i
+torch	modules/prediction.py	/^import torch.nn.functional as F$/;"	i
+torch	modules/sequence_modeling.py	/^import torch.nn as nn$/;"	i
+torch	modules/transformation.py	/^import torch$/;"	i
+torch	modules/transformation.py	/^import torch.nn as nn$/;"	i
+torch	modules/transformation.py	/^import torch.nn.functional as F$/;"	i
+torch	test.py	/^import torch$/;"	i
+torch	test.py	/^import torch.backends.cudnn as cudnn$/;"	i
+torch	test.py	/^import torch.nn.functional as F$/;"	i
+torch	test.py	/^import torch.utils.data$/;"	i
+torch	train.py	/^import torch$/;"	i
+torch	train.py	/^import torch.backends.cudnn as cudnn$/;"	i
+torch	train.py	/^import torch.nn.init as init$/;"	i
+torch	train.py	/^import torch.optim as optim$/;"	i
+torch	train.py	/^import torch.utils.data$/;"	i
+torch	utils.py	/^import torch$/;"	i
+torchvision	dataset.py	/^import torchvision.transforms as transforms$/;"	i
+train	train.py	/^def train(opt):$/;"	f
+transforms	dataset.py	/^import torchvision.transforms as transforms$/;"	i
+utils	demo.py	/^import torch.utils.data$/;"	i
+utils	test.py	/^import torch.utils.data$/;"	i
+utils	train.py	/^import torch.utils.data$/;"	i
+val	utils.py	/^    def val(self):$/;"	m	class:Averager
+validation	test.py	/^def validation(model, criterion, evaluation_loader, converter, opt):$/;"	f
+validation	train.py	/^from test import validation$/;"	i
+vgg16_bn	craft/basenet/vgg16_bn.py	/^class vgg16_bn(torch.nn.Module):$/;"	c
+vgg16_bn	craft/craft.py	/^from basenet.vgg16_bn import vgg16_bn, init_weights$/;"	i
+video_file	extract_frame.py	/^    video_file = '\/Users\/leeseunghak\/data\/video\/test01.mp4'$/;"	v
+warpCoord	craft/craft_utils.py	/^def warpCoord(Minv, pt):$/;"	f
+writeCache	create_lmdb_dataset.py	/^def writeCache(env, cache):$/;"	f
+zipfile	craft/test.py	/^import zipfile$/;"	i
