@@ -42,6 +42,7 @@ def demo(opt):
         collate_fn=AlignCollate_demo, pin_memory=True)
 
     # predict
+    total = 0
     model.eval()
     with torch.no_grad():
         for image_tensors, image_path_list in demo_loader:
@@ -94,10 +95,12 @@ def demo(opt):
                   continue
 
 
-                print(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}')
+                print(f'[{total:5d}] {img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}', end='\r')
                 log.write(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}\n')
+                total += 1
 
             log.close()
+            print(f'total ocr: {total}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
