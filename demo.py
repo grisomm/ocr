@@ -100,7 +100,8 @@ def demo(opt):
                 total += 1
 
             log.close()
-            print(f'total ocr: {total}')
+
+    print(f'total text: {total}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
