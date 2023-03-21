@@ -219,6 +219,7 @@ mask_file	craft/test.py	/^        mask_file = result_folder + "\/res_" + filenam
 math	craft/craft_utils.py	/^import math$/;"	i
 math	dataset.py	/^import math$/;"	i
 model	craft/craft.py	/^    model = CRAFT(pretrained=True).cuda()$/;"	v	class:CRAFT
+model_root	train.py	/^model_root = '\/content\/drive\/MyDrive\/model\/Craft+TPS-Resnet'$/;"	v
 model_urls	craft/basenet/vgg16_bn.py	/^from torchvision.models.vgg import model_urls$/;"	i
 models	craft/basenet/vgg16_bn.py	/^from torchvision import models$/;"	i
 namedtuple	craft/basenet/vgg16_bn.py	/^from collections import namedtuple$/;"	i
